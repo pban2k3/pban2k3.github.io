@@ -1,0 +1,1047 @@
+* {
+       margin: 0;
+       padding: 0;
+}
+
+body {
+       background: #f4f4f4;
+}
+
+ul.menu li a {
+       text-decoration: none;
+       margin-left: 10px;
+       margin-right: 10px;
+       padding-top: 4px;
+       width: 100px;
+       height: 25px;
+       float: right;
+       text-align: center;
+       color: aliceblue;
+}
+
+ul.menu {
+       display: flex;
+       list-style: none;
+       background-color: rgb(2, 109, 75);
+       padding-left: 1020px;
+}
+
+ul.menu li a:hover {
+       color: cornflowerblue;
+}
+
+ul.timkiem li {
+       list-style: none;
+}
+
+ul.timkiem {
+       display: flex;
+       padding-left: 200px;
+}
+
+ul.timkiem li a img {
+       width: 200px;
+       height: 50px;
+}
+
+ul.timkiem li.tk input.ip_timkiem {
+       background-color: green;
+       width: 700px;
+       height: 40px;
+       border-radius: 10px;
+       margin-top: 5px;
+       color: aliceblue;
+}
+
+ul.timkiem li.tk input:focus::placeholder {
+       opacity: 0;
+}
+
+ul.timkiem li input.logo_tk {
+       width: 40px;
+       height: 40px;
+       background-color: green;
+       margin-top: 5px;
+       border-radius: 20px;
+       margin-right: -100px;
+}
+
+::placeholder {
+       color: rgb(255, 255, 255);
+}
+
+ul.timkiem li.giohang a img {
+       width: 50px;
+       height: 50px;
+       margin-left: 100px;
+}
+
+ul.menu_sp a {
+       text-decoration: none;
+       color: aliceblue;
+}
+
+ul.menu_sp a {
+       list-style: none;
+       width: 20%;
+       height: 32px;
+       margin-left: 50px;
+       margin-right: 50apx;
+       text-align: center;
+       padding-top: 8px;
+}
+
+ul.menu_sp {
+       display: flex;
+       height: 40px;
+       background-color: rgb(2, 109, 75);
+
+}
+
+ul.menu_sp a:hover {
+       border-radius: 10px;
+       background-color: aliceblue;
+       color: rgb(2, 109, 75);
+
+}
+
+
+.submenu {
+       display: none;
+}
+
+.box-menu ul li:hover .submenu {
+       display: block;
+       position: absolute;
+       background-color: green;
+       margin-top: 30px;
+       margin-left: -50px;
+       border-radius: 10px;
+}
+
+.box-menu ul li:hover .submenu ul {
+       display: block;
+       margin: 5px;
+
+}
+
+.box-menu ul li:hover .submenu ul li {
+       width: 120px;
+       text-align: left;
+       background: transparent;
+       margin: 5px;
+       list-style: none;
+}
+
+
+
+.slider {
+       position: relative;
+       width: 80%;
+       height: 500px;
+       margin: auto;
+       margin-left: 219px;
+}
+
+.slide-wrapper {
+       overflow: hidden;
+}
+
+.slide {
+       display: flex;
+       width: 90%;
+       height: 400px;
+       height: auto;
+       transition: all 0.5s ease-in-out;
+}
+
+.controls {
+       position: absolute;
+       top: 23%;
+       transform: translateY(100%);
+}
+
+.prev {
+       margin-left: -50px;
+       border: none;
+       cursor: pointer;
+}
+
+.next {
+       margin-left: 1103px;
+       border: none;
+       cursor: pointer;
+}
+
+.bt_left,
+.bt_right {
+       width: 50px;
+       background-color: #fff;
+}
+
+.thumbnails {
+       display: flex;
+       justify-content: center;
+       margin-top: 10px;
+       margin-left: -110px;
+
+}
+
+.thumbnail {
+       width: 200px;
+       height: 80px;
+       object-fit: cover;
+       transition: opacity 0.3s ease-in-out;
+       cursor: pointer;
+       border-radius: 20px;
+       margin-right: 10px;
+       box-shadow: 2px 2px 9px #4b4b4b;
+
+}
+
+.thumbnail.active {
+       border: 4px solid #f9bebe;
+}
+
+
+/* SAMSUNG */
+
+div.div_samsung {
+       margin: auto;
+       max-width: 80%;
+       height: 410px;
+
+}
+
+div.div_logo p.logo-samsung {
+       width: 200px;
+       height: 25px;
+       padding-right: 20px;
+       padding-left: 200px;
+       margin-bottom: 10px;
+       background-color: rgb(11, 131, 21);
+       border-radius: 0 10px 10px 0;
+       padding-top: 5px;
+       box-shadow: 3px 3px 8px #4b4b4b;
+
+}
+
+div.div_logo p.logo-samsung a {
+       text-decoration: none;
+       color: #fff;
+       font-size: 19px;
+       margin-left: 110px;
+}
+
+div.div_logo p.logo-samsung a:hover {
+       color: aqua;
+}
+
+ul.sp-samsung {
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: space-between;
+}
+
+ul.sp-samsung li {
+       list-style: none;
+       background-color: aliceblue;
+       border-radius: 15px;
+       box-shadow: 2px 2px 4px #888888;
+       margin: 5px;
+       margin-top: 15px;
+}
+
+ul.sp-samsung li div img {
+       width: 130px;
+       height: 150px;
+       margin: 45px;
+}
+
+ul.sp-samsung li a {
+       text-decoration: none;
+}
+
+ul.sp-samsung li a img.re-het-co {
+       width: 150px;
+       height: 50px;
+       margin-top: 180px;
+       position: absolute;
+}
+
+ul.sp-samsung li a div.ten-ss {
+       color: #000000;
+       text-decoration: none;
+       font-size: 14px;
+       margin-top: -20px;
+}
+
+ul.sp-samsung li a img.logo-ss {
+       position: absolute;
+       width: 120px;
+       margin-left: 7px;
+       margin-right: 10px;
+       border-radius: 5px;
+}
+
+ul.sp-samsung li a div.gia {
+       display: flex;
+       margin-right: 10px;
+       margin-left: 10px;
+}
+
+ul.sp-samsung li a div.gia .gia-ss {
+       text-decoration: line-through;
+       margin-left: 10px;
+}
+
+ul.sp-samsung li a div.gia .gia-ss-new {
+       color: red;
+       font-size: 18px;
+       margin-left: 10px;
+}
+
+ul.sp-samsung li a p.chinh-hang {
+       margin-left: 75px;
+       font-size: 14px;
+       color: #000000;
+}
+
+/* -------IPHONE------- */
+
+div.div_apple {
+       margin: auto;
+       max-width: 80%;
+       height: 410px;
+
+}
+
+div.div_logo p.logo-apple {
+       width: 200px;
+       height: 25px;
+       padding-right: 20px;
+       padding-left: 200px;
+       margin-bottom: 10px;
+       background-color: rgb(252, 187, 66);
+       border-radius: 0 10px 10px 0;
+       padding-top: 5px;
+       box-shadow: 3px 3px 8px #4b4b4b;
+
+}
+
+
+div.div_logo p.logo-apple a {
+       text-decoration: none;
+       color: #fff;
+       font-size: 19px;
+       margin-left: 110px;
+}
+
+div.div_logo p.logo-apple a:hover {
+       color: aqua;
+}
+
+
+ul.sp-apple {
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: space-between;
+}
+
+ul.sp-apple li {
+       list-style: none;
+       background-color: aliceblue;
+       border-radius: 15px;
+       box-shadow: 2px 2px 4px #888888;
+       margin: 5px;
+
+}
+
+ul.sp-apple li a img {
+       width: 80px;
+       margin: 5px 0 0 10px;
+}
+
+ul.sp-apple li div img {
+       width: 130px;
+       height: 150px;
+       margin: 45px;
+}
+
+ul.sp-apple li a {
+       text-decoration: none;
+}
+
+ul.sp-apple li a div.ten-ip {
+       color: #000000;
+       text-decoration: none;
+       font-size: 14px;
+       margin-top: -20px;
+}
+
+ul.sp-apple li a div.gia {
+       display: flex;
+       margin-right: 10px;
+       margin-left: 10px;
+}
+
+ul.sp-apple li a div.gia .gia-ip-new {
+       color: red;
+       font-size: 18px;
+       margin-left: 55px;
+}
+
+ul.sp-apple li a p.chinh-hang {
+       margin-left: 75px;
+       font-size: 14px;
+       color: #000000;
+}
+
+
+
+
+/* ---------------XIAOMI------------ */
+
+div.div_xiaomi {
+       margin: auto;
+       max-width: 80%;
+       height: 410px;
+
+}
+
+div.div_logo p.logo-xiaomi {
+       width: 200px;
+       height: 25px;
+       padding-right: 20px;
+       padding-left: 200px;
+       margin-bottom: 10px;
+       background-color: rgb(66, 215, 252);
+       border-radius: 0 10px 10px 0;
+       padding-top: 5px;
+       box-shadow: 3px 3px 8px #4b4b4b;
+
+}
+
+
+div.div_logo p.logo-xiaomi a {
+       text-decoration: none;
+       color: #fff;
+       font-size: 19px;
+       margin-left: 110px;
+}
+
+div.div_logo p.logo-xiaomi a:hover {
+       color: rgb(255, 0, 0);
+}
+
+
+ul.sp-xiaomi {
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: space-between;
+}
+
+ul.sp-xiaomi li {
+       list-style: none;
+       background-color: aliceblue;
+       border-radius: 15px;
+       box-shadow: 2px 2px 4px #888888;
+       margin: 5px;
+
+}
+
+ul.sp-xiaomi li a img {
+       width: 80px;
+       margin: 5px 0 0 10px;
+}
+
+ul.sp-xiaomi li div img {
+       width: 130px;
+       height: 150px;
+       margin: 45px;
+}
+
+ul.sp-xiaomi li a {
+       text-decoration: none;
+}
+
+ul.sp-xiaomi li a div.ten-mi {
+       color: #000000;
+       text-decoration: none;
+       font-size: 14px;
+       margin-top: -20px;
+}
+
+ul.sp-xiaomi li a div.gia {
+       display: flex;
+}
+
+ul.sp-xiaomi li a div.gia .gia-mi {
+       text-decoration: line-through;
+       margin-left: 20px;
+}
+
+ul.sp-xiaomi li a div.gia .gia-mi-new {
+       color: red;
+       font-size: 18px;
+       margin-left: 5px;
+}
+
+ul.sp-xiaomi li a p.chinh-hang {
+       margin-left: 75px;
+       font-size: 14px;
+       color: #000000;
+}
+
+
+/* -----------OPPO--------- */
+
+div.div_oppo {
+       margin: auto;
+       max-width: 80%;
+       height: 410px;
+
+}
+
+div.div_logo p.logo-oppo {
+       width: 200px;
+       height: 25px;
+       padding-right: 20px;
+       padding-left: 200px;
+       margin-bottom: 10px;
+       background-color: rgb(0, 0, 255);
+       border-radius: 0 10px 10px 0;
+       padding-top: 5px;
+       box-shadow: 3px 3px 8px #4b4b4b;
+
+}
+
+
+div.div_logo p.logo-oppo a {
+       text-decoration: none;
+       color: #fff;
+       font-size: 19px;
+       margin-left: 110px;
+}
+
+div.div_logo p.logo-oppo a:hover {
+       color: rgb(153, 255, 0);
+}
+
+
+ul.sp-oppo {
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: space-between;
+}
+
+ul.sp-oppo li {
+       list-style: none;
+       background-color: aliceblue;
+       border-radius: 15px;
+       box-shadow: 2px 2px 4px #888888;
+       margin: 5px;
+
+}
+
+ul.sp-oppo li a img {
+       width: 80px;
+       margin: 5px 0 0 10px;
+}
+
+ul.sp-oppo li div img {
+       width: 130px;
+       height: 150px;
+       margin: 45px;
+}
+
+ul.sp-oppo li a {
+       text-decoration: none;
+}
+
+ul.sp-oppo li a div.ten-op {
+       color: #000000;
+       text-decoration: none;
+       font-size: 14px;
+       margin-top: -20px;
+}
+
+ul.sp-oppo li a div.gia {
+       display: flex;
+}
+
+ul.sp-oppo li a div.gia .gia-op {
+       text-decoration: line-through;
+       margin-left: 20px;
+}
+
+ul.sp-oppo li a div.gia .gia-op-new {
+       color: red;
+       font-size: 18px;
+       margin-left: 5px;
+}
+
+ul.sp-oppo li a p.chinh-hang {
+       margin-left: 75px;
+       font-size: 14px;
+       color: #000000;
+}
+
+/* ////////////////////// */
+
+.container {
+       min-width: 1500px;
+       width: 1200px;
+       background: #ffffff;
+       margin: 10px;
+       padding: 5px;
+}
+
+.container-footer {
+       min-width: 1500px;
+       width: 1200px;
+       background: #00483d;
+       margin: 10px;
+       border-radius: 15px;
+       padding: 5px;
+       margin-top: 50px;
+
+}
+
+.row {
+       display: flex;
+}
+
+ul {
+       list-style: none;
+}
+
+.footer {
+       background-color: #fefeff0c;
+       padding: 5px;
+}
+
+.footer-col {
+       width: 20%;
+       padding: 0 40px;
+}
+
+.footer-col h4 {
+       font-size: 18px;
+       color: #fff;
+       text-transform: capitalize;
+       margin-bottom: 35px;
+       font-weight: 500;
+       position: relative;
+}
+
+.footer-col h4::before {
+       content: '';
+       position: absolute;
+       left: 0;
+       bottom: -10px;
+       background-color: #e91e63;
+       height: 2px;
+       box-sizing: border-box;
+       width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+       margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+       font-size: 16px;
+       text-transform: capitalize;
+       color: #fff;
+       text-decoration: none;
+       font-weight: 300;
+       color: #bbb;
+       display: block;
+}
+
+.footer-col .hotline {
+       display: inline-block;
+       padding: 6px 10px;
+       background: #ffffff;
+       border-radius: 4px;
+       color: #00483d;
+       font-size: 17px;
+       text-decoration: none;
+}
+
+.footer-col .list-logo li img {
+       margin-right: 10px;
+}
+
+.footer .info {
+       padding-top: 40px;
+       text-align: center;
+}
+
+.footer .info p {
+       margin: 0 0 5px 0;
+       font-size: 12pt;
+       color: #ffffff;
+}
+
+.slider-product-one-content-container {
+       position: relative;
+}
+
+.slider-product-one-content-btn {
+       position: absolute;
+       top: 50%;
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+}
+
+.slider-product-one-content-btn i {
+       color: #333;
+       font-size: 32px;
+       height: 50px;
+       width: 25px;
+       background-color: rgb(253, 242, 242);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       transform: translateY(-50%);
+       border-radius: 5px;
+       transition: all 0.3s ease;
+       cursor: pointer;
+}
+
+.slider-product-one-content-items-content {
+       position: relative;
+       height: 550px;
+}
+
+.slider-product-one-content-items {
+       position: relative;
+}
+
+.slider-product-one-content-items:nth-child(2) {
+       transform: translateX(100%);
+}
+
+.slider-product-one-content-items:nth-child(3) {
+       transform: translateX(200%);
+}
+
+.order {
+       max-width: 1000px;
+       margin: 0 auto;
+       padding: 20px;
+}
+
+.product {
+       display: flex;
+       margin-bottom: 30px;
+}
+
+.product img {
+       width: 200px;
+       height: 200px;
+       margin-right: 20px;
+       object-fit: cover;
+       border-radius: 10
+}
+
+.product-info {
+       display: flex;
+       flex-direction: column;
+}
+
+.product-info h2 {
+       margin-top: 0;
+       margin-bottom: 10px;
+}
+
+.price {
+       font-weight: bold;
+       font-size: 20px;
+       margin-bottom: 10px;
+}
+
+.color {
+       margin-top: 10px;
+}
+
+.color label {
+       margin-right: 10px;
+}
+
+.color select {
+       padding: 5px;
+       border-radius: 5px;
+       border: 1px solid #ccc;
+}
+
+.order form {
+       background-color: #fff;
+       padding: 20px;
+       border-radius: 10px;
+}
+
+form label {
+       display: block;
+       margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+       width: 100%;
+       padding: 10px;
+       margin-bottom: 10px;
+       border-radius: 5px;
+       border: 1px solid #ccc;
+       resize: none;
+}
+
+@media(min-width:1000px) {
+       form button {
+              width: 100%;
+              background-color: #333;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+       }
+}
+
+.payment {
+       margin-top: 20px;
+}
+
+.payment label {
+       display: inline;
+       margin-bottom: 5px;
+}
+
+.payment input {
+       margin-right: 5px;
+}
+
+@media (max-width: 1000px) {
+       form button {
+              width: 100%;
+              background-color: #333;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              font-size: 15px;
+       }
+
+       .product {
+              flex-direction: column;
+       }
+
+       .product img {
+              width: 100%;
+              height: auto;
+              margin-right: 0;
+              margin-bottom: 10px;
+              border-radius: 10px 10px 0 0;
+       }
+
+       .product-info {
+              margin-bottom: 20px;
+       }
+
+       form input,
+       form textarea {
+              font-size: 16px;
+       }
+}
+
+
+section {
+       width: 80%;
+       height: auto;
+       margin-top: 40px;
+       margin-left: 460px;
+
+}
+
+.label {
+       font-size: 30px;
+       margin-left: 150px;
+}
+
+div.tracuu label {
+       width: 20px;
+}
+
+div.tracuu input {
+       display: block;
+}
+
+div.tracuu input.text {
+       margin-top: 20px;
+       width: 600px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: #09c299;
+}
+
+div.tracuu input::placeholder {
+       color: #ffffff;
+       font-size: 14px;
+       margin-left: 20px;
+}
+
+div.tracuu input:focus::placeholder {
+       opacity: 0;
+}
+
+div.tracuu input.submit {
+       background-color: #07b69c;
+       width: 150px;
+       height: 60px;
+       color: #ffffff;
+       margin-top: 20px;
+       margin-left: 200px;
+       border-radius: 20px;
+       font-size: 15px;
+}
+
+div.tracuu input.submit:hover {
+       background-color: #08b143;
+}
+
+
+
+.cart {
+       background-color: #f9f9f9;
+       padding: 20px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+}
+
+.cart h2 {
+       font-size: 24px;
+       margin-bottom: 10px;
+}
+
+.cart-items {
+       list-style: none;
+       padding: 0;
+}
+
+.cart-item {
+       display: flex;
+       align-items: center;
+       margin-bottom: 10px;
+}
+
+.cart-item img {
+       width: 80px;
+       height: 80px;
+       margin-right: 10px;
+}
+
+.item-details {
+       flex-grow: 1;
+}
+
+.item-name {
+       font-size: 18px;
+       margin: 0;
+}
+
+.item-price {
+       font-size: 16px;
+       margin: 5px 0;
+}
+
+.item-quantity {
+       font-size: 14px;
+       margin: 0;
+       color: #000000;
+}
+
+.remove-item {
+       background-color: #ff0000;
+       color: #fff;
+       border: none;
+       padding: 5px 10px;
+       border-radius: 4px;
+       cursor: pointer;
+}
+
+.cart-summary {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-top: 20px;
+}
+
+.total-price {
+       font-weight: bold;
+}
+
+.checkout {
+       background-color: #4caf50;
+       color: #fff;
+       border: none;
+       padding: 10px 20px;
+       border-radius: 4px;
+       cursor: pointer;
+}
+
+.gia-order {
+       text-decoration: line-through;
+       margin-left: 150px;
+       margin-top: -30px;
+}
+
+.radio-label {
+       margin-right: 10px;
+       margin-left: 80px;
+}
+
+input[type="radio"] {
+       display: none;
+}
+
+input[type="radio"]+label:before {
+       content: "";
+       display: inline-block;
+       width: 12px;
+       height: 12px;
+       border-radius: 50%;
+       border: 2px solid #ccc;
+       margin-right: 5px;
+}
+
+input[type="radio"]:checked+label:before {
+       background-color: #007bff;
+       border-color: #007bff;
+}
+
+.form-order {
+       position: absolute;
+       width: 200px;
+       height: 140px;
+       margin-top: 80px;
+}
+
+.free-ship {
+       padding-top: 7px;
+       margin-left: 280px;
+       padding-left: 100px;
+       padding-right: 50px;
+       color: #fff;
+       width: 250px;
+       height: 30px;
+       border-radius: 10px;
+       background-color: #049a5e;
+}
+
+.form-od{
+       margin-top: 90px;
+}
